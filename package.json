@@ -1,0 +1,19 @@
+{
+  "name": "full-stack-project",
+  "version": "1.0.0",
+  "description": "social network for developers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdielPerez20/Full-Stack-Project.git"
+  },
+  "author": "Adiel Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdielPerez20/Full-Stack-Project/issues"
+  },
+  "homepage": "https://github.com/AdielPerez20/Full-Stack-Project#readme"
+}
