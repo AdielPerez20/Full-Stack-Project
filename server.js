@@ -1,5 +1,8 @@
 const express = require('express'); //to using express framework
 const mongoose = require ('mongoose'); //to using mongoDB
+const users = require('./routes/api/users'); 
+const profile = require('./routes/api/profile');
+const posts = require('./routes/api/posts');
 
 const app = express();
 
@@ -14,6 +17,10 @@ mongoose
 
 //request  & response
 app.get('/', (req,res) => res.send('Hello'));
+//Use routes
+app.use('/api/users', users);
+app.use('/api/profile', profile);
+app.use('/api/posts', posts);
 //setting a port
 const port = process.env.PORT || 5000;
 //connect to server 
